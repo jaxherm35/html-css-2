@@ -1,0 +1,63 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    padding: 50px
+}
+
+header{
+    background-color: lightgray ;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.square{
+    width: 75px;
+    height: 75px;
+    background-color: lightblue;
+}
+
+.big-stripe{
+    height: 25vh;
+}
+
+.stripe-one{
+    background-color: lightblue;
+    height: 20vh;
+    width: 100%;
+}
+
+.stripe-two{
+    background-color: aquamarine;
+    height: 20vh;
+    width: 100%
+}
+
+.stripe-three{
+    background-color: greenyellow;
+    height: 20vh;
+    width: 100%
+}
+
+.stripe-four{
+    background-color: yellow;
+    height: 20vh;
+    width: 100%
+}
+
+.question-button{
+    position: fixed;
+    right: 10px;
+    bottom: 10px
+}
+
+.question-button button{
+    height: 45;
+    width: 45;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+}
